@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    margin: 30px;
+}
+
+.card{
+    background: hsl(27, 8%, 50%);
+    padding: 5px 20px;
+    width: 600px;
+    margin: 0 auto;
+    transition: all 0.5s ease;
+}
+.card:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 0 20px #3D3732;
+    opacity: 0.5;
+}
+img{
+    width: 200px;
+    border: 1px #3D3732;
+    box-shadow: 5px 5px 5px 3px #3D3732;
+}
+
+.tex1t{
+    font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+    color: #CBCDCD;
+}
+.tex2t{
+    font-family:'Times New Roman', Times, serif;
+    color: #3D3732;
+    display: flex;
+    justify-content: space-around;
+}
